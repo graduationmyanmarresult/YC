@@ -1439,7 +1439,7 @@
                 total += subtotal;
 
                 html += `
-                    <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 10px; border-radius: 10px; margin-bottom: 8px; display: flex; justify-content: space-between; align- items: center;">
+                    <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 10px; border-radius: 10px; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center;">
                         <div>
                             <p style="font-weight: bold; font-size: 13px; color: #334155;">[Code: ${item.code || '-'}] ${item.title}</p>
                             <p style="font-size: 11px; color: #64748b;">${item.price.toLocaleString()} x ${item.qty} = <span style="font-weight: bold; color: #4338ca;">${subtotal.toLocaleString()} ကျပ်</span></p>
