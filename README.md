@@ -1,4 +1,3 @@
-<html lang="my">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,7 @@
     <!-- Firebase App (Modular CDN with your config) -->
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
-        import { getDatabase, ref, set, onValue, push } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+        import { getDatabase, ref, set, onValue, push, remove } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
 
         const firebaseConfig = {
             apiKey: "AIzaSyCun01cjEFWNHWe-iiZt0BukJffzhYA5uI",
@@ -32,6 +31,7 @@
         window.fbSet = set;
         window.fbOnValue = onValue;
         window.fbPush = push;
+        window.fbRemove = remove;
     </script>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
